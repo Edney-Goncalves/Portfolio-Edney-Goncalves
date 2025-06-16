@@ -10,7 +10,7 @@ Este portfólio foi desenvolvido com foco em apresentar meus conhecimentos em:
 - **CSS3**
 - **JavaScript**
 - **Node.js**
-- **Solidity** *(foco atual em blockchain)*
+- **Solidity** 
 
 Além disso, ele funciona como um hub central para meus projetos hospedados no GitHub.
 
@@ -27,7 +27,6 @@ Além disso, ele funciona como um hub central para meus projetos hospedados no G
 - CSS3 (Flexbox & Grid)
 - JavaScript
 - [Node.js](https://nodejs.org/)
-- [Solidity](https://soliditylang.org/)
 - Git & GitHub
 
 ## 📸 Preview

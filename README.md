@@ -41,7 +41,7 @@ Se quiser conversar sobre tecnologia, projetos ou oportunidades, entre em contat
 
 - 📧 [E-mail](mailto:developer.edney@gmail.com)    
 - 🔗 [LinkedIn](https://www.linkedin.com/in/edney-gon%C3%A7alves10/)  
-- 🧑‍💻 [GitHub](https://github.com/seuusuario)
+- 🧑‍💻 [GitHub](https://github.com/Edney-Goncalves)
 
 ---
 

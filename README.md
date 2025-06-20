@@ -27,9 +27,7 @@ Acredito que a missão de todo o desenvolvedor deve ser a de facilitar a vida do
 
 ## 📸 Preview
 
-![screenshot do portfólio](https://raw.githubusercontent.com/Edney-Goncalves/Portfolio-Edney-Goncalves/index-atualizado/assets/img/tela_portfolio.PNG)
-
-> 
+![screenshot do portfólio](https://raw.githubusercontent.com/Edney-Goncalves/Portfolio-Edney-Goncalves/main/assets/img/tela_portfolio.PNG)
 
 ## 📬 Contato
 
@@ -42,5 +40,3 @@ Se quiser conversar sobre tecnologia, projetos ou oportunidades, entre em contat
 ---
 
 📌 *Sinta-se à vontade para abrir uma issue ou enviar um pull request com sugestões de melhoria!*
-
-

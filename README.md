@@ -1,18 +1,14 @@
 # 🌐 Portfólio Pessoal – Edney Gonçalves
 
-Bem-vindo ao repositório do meu portfólio pessoal! Aqui você encontrará uma vitrine dos meus projetos, habilidades e trajetória profissional como estudante de Engenharia de Software em transição de carreira.
+Bem-vindo ao repositório do meu portfólio pessoal! Aqui você encontrará uma vitrine dos meus projetos, habilidades e trajetória profissional como estudante de Engenharia de Software.
 
 ## 🚀 Sobre o Projeto
 
-Este portfólio foi desenvolvido com foco em apresentar meus conhecimentos em:
+A ideia foi construir uma página web para desktop e mobile, buscando, com a responsividade, trazer a melhor experiência possível ao usuário.
 
-- **HTML5**
-- **CSS3**
-- **TypeScript**
-- **React**
-- **Node.js** 
+Através desta página, quero anunciar meus futuros projetos, já que estou iniciando na universidade (Agosto/2025). Sei que muitos ainda não têm familiaridade em utilizar GitHub, então com esta página irei conseguir levar meus projetos a um público maior que, talvez, não iria ter a mesma facilidade de acessar meu portfolio no GitHub.
 
-Além disso, ele funciona como um hub central para meus projetos hospedados no GitHub.
+Acredito que a missão de todo o desenvolvedor deve ser a de facilitar a vida do usuário e foi isso o que me motivou a trazer este projeto a público.
 
 ## 📌 Funcionalidades
 
@@ -46,4 +42,5 @@ Se quiser conversar sobre tecnologia, projetos ou oportunidades, entre em contat
 ---
 
 📌 *Sinta-se à vontade para abrir uma issue ou enviar um pull request com sugestões de melhoria!*
+
 

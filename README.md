@@ -8,9 +8,9 @@ Este portfólio foi desenvolvido com foco em apresentar meus conhecimentos em:
 
 - **HTML5**
 - **CSS3**
-- **JavaScript**
-- **Node.js**
-- **Solidity** 
+- **TypeScript**
+- **React**
+- **Node.js** 
 
 Além disso, ele funciona como um hub central para meus projetos hospedados no GitHub.
 
@@ -25,13 +25,13 @@ Além disso, ele funciona como um hub central para meus projetos hospedados no G
 
 - HTML5
 - CSS3 (Flexbox & Grid)
-- JavaScript
-- [Node.js](https://nodejs.org/)
+- TypeScript
+- Node.js
 - Git & GitHub
 
 ## 📸 Preview
 
-![screenshot do portfólio](./assets/img/preview.png)
+![screenshot do portfólio](./assets/img/tela_portfolio.png)
 
 > 
 

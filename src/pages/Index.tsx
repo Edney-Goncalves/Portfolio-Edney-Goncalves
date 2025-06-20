@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Github, Linkedin, Mail, Moon, Sun, Download, ExternalLink } from 'lucide-react';
 
 const Index = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     if (darkMode) {
@@ -51,7 +51,7 @@ const Index = () => {
       {/* Header */}
       <header className="fixed top-0 w-full bg-background/80 backdrop-blur-sm border-b z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">João Silva</h1>
+          <h1 className="text-2xl font-bold">Edney Gonçalves</h1>
           <Button 
             variant="ghost" 
             size="icon" 
@@ -68,13 +68,13 @@ const Index = () => {
         <div className="container mx-auto text-center max-w-4xl">
           <div className="mb-8">
             <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 flex items-center justify-center text-white text-4xl font-bold">
-              JS
+              EG
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">
-              Desenvolvedor <span className="text-primary">Full Stack</span>
+              Desenvolvedor <span className="text-primary">Back-end</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Transformo ideias em soluções digitais. Especializado em React, Node.js e tecnologias modernas para criar experiências web incríveis.
+              Transformo ideias em realidade. Especializado em Javascript, Node.js e Solidity.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-lg px-8">
@@ -97,14 +97,12 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-muted-foreground mb-6">
-                Sou um desenvolvedor apaixonado por tecnologia com mais de 3 anos de experiência 
-                criando aplicações web modernas e eficientes. Minha jornada começou com curiosidade 
-                sobre como funcionam os sites, e hoje transformo ideias complexas em soluções digitais elegantes.
+                Sou estudante de Engenharia de Software, proativo e movido pela paixão por tecnologias emergentes — especialmente blockchain. Com mais de 3 anos de experiência prática no desenvolvimento de aplicações web modernas, transformo ideias em soluções digitais eficientes e escaláveis.
+                Minha trajetória começou com a curiosidade sobre o funcionamento da web, evoluindo para projetos robustos que combinam criatividade com código limpo. Atuo como desenvolvedor back-end, com domínio em JavaScript, Node.js no back-end e foco em experiências dinâmicas no frontend. Além disso, exploro o universo da Web3 com desenvolvimento de contratos inteligentes em Solidity.
+                Trabalhar em equipe, aprender continuamente e aplicar tecnologia para resolver problemas reais são os pilares que guiam meu dia a dia como desenvolvedor.
               </p>
               <p className="text-lg text-muted-foreground mb-6">
-                Especializo-me em desenvolvimento full stack, com foco especial em React para o frontend 
-                e Node.js para o backend. Adoro trabalhar em equipe e estou sempre aprendendo novas tecnologias.
-              </p>
+                Estou me especializando em desenvolvimento back-end, com foco em plataformas descentralizadas, utilizando Solidity para criação de contratos inteligentes. Atualmente estou me aprofundando em TypeScript.</p>
               <div className="flex gap-4">
                 <Button variant="outline" size="icon">
                   <Github className="h-5 w-5" />
@@ -117,19 +115,19 @@ const Index = () => {
             <div className="space-y-4">
               <Card>
                 <CardContent className="p-6">
-                  <div className="text-2xl font-bold text-primary mb-2">50+</div>
+                  <div className="text-2xl font-bold text-primary mb-2">3+</div>
                   <div className="text-muted-foreground">Projetos Concluídos</div>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-6">
-                  <div className="text-2xl font-bold text-primary mb-2">3+</div>
+                  <div className="text-2xl font-bold text-primary mb-2">2+</div>
                   <div className="text-muted-foreground">Anos de Experiência</div>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-6">
-                  <div className="text-2xl font-bold text-primary mb-2">20+</div>
+                  <div className="text-2xl font-bold text-primary mb-2">3+</div>
                   <div className="text-muted-foreground">Clientes Satisfeitos</div>
                 </CardContent>
               </Card>
@@ -193,11 +191,11 @@ const Index = () => {
           <h2 className="text-3xl font-bold mb-8">Vamos Trabalhar Juntos?</h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Estou sempre aberto a discutir novas oportunidades e projetos interessantes. 
-            Entre em contato e vamos criar algo incrível!
+            Entre em contato e vamos desenvolver nosso dApp!!
           </p>
           <Button size="lg" className="text-lg px-8">
             <Mail className="mr-2 h-5 w-5" />
-            joao.silva@email.com
+            developer.edney@gmail.com
           </Button>
         </div>
       </section>
@@ -217,7 +215,7 @@ const Index = () => {
             </Button>
           </div>
           <p className="text-muted-foreground">
-            © 2024 João Silva. Todos os direitos reservados.
+            © 2025 Edney Gonçalves. Todos os direitos reservados.
           </p>
         </div>
       </footer>

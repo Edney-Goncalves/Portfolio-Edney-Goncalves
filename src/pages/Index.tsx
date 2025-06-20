@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Github, Linkedin, Mail, Moon, Sun, Download, ExternalLink } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+
 
 const Index = () => {
   const [darkMode, setDarkMode] = useState(true);
@@ -67,9 +69,12 @@ const Index = () => {
       <section className="pt-20 pb-20 px-4">
         <div className="container mx-auto text-center max-w-4xl">
           <div className="mb-8">
-            <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6 flex items-center justify-center text-white text-4xl font-bold">
+            <Avatar className="w-32 h-32 mx-auto mb-6">
+              <AvatarImage src="/edney_foto.jpg" alt="Edney Gonçalves" />
+              <AvatarFallback className="bg-gradient-to-r from-blue-500 to-purple-600 text-white text-4xl font-bold">
               EG
-            </div>
+              </AvatarFallback>
+            </Avatar>
             <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">
               Desenvolvedor <span className="text-primary">Back-end</span>
             </h1>

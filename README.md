@@ -34,8 +34,7 @@ Acredito que a missão de todo o desenvolvedor deve ser a de facilitar a vida do
 Se quiser conversar sobre tecnologia, projetos ou oportunidades, entre em contato:
 
 - 📧 [E-mail](mailto:developer.edney@gmail.com)    
-- 🔗 [LinkedIn](https://www.linkedin.com/in/edney-gon%C3%A7alves10/)  
-- 🧑‍💻 [GitHub](https://github.com/Edney-Goncalves)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/edney-gon%C3%A7alves10/) 
 
 ---
 

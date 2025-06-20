@@ -31,7 +31,7 @@ Além disso, ele funciona como um hub central para meus projetos hospedados no G
 
 ## 📸 Preview
 
-![screenshot do portfólio]((https://raw.githubusercontent.com/Edney-Goncalves/Portfolio-Edney-Goncalves/index-atualizado/assets/img/tela_portfolio.png ))
+![screenshot do portfólio](https://raw.githubusercontent.com/Edney-Goncalves/Portfolio-Edney-Goncalves/main/assets/img/tela_portfolio.PNG)
 
 > 
 

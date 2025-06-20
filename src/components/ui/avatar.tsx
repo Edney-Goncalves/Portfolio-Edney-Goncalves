@@ -6,7 +6,7 @@ export default function Perfil() {
   return (
     <Avatar className="w-32 h-32">
       <AvatarImage src="/edney_foto.jpeg" alt="Edney Gonçalves" />
-      <AvatarFallback>EG</AvatarFallback>
+      <AvatarFallback>EL</AvatarFallback>
     </Avatar>
   );
 }

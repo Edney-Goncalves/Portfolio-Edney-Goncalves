@@ -50,18 +50,39 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground transition-colors duration-300">
       {/* Header */}
       <header className="fixed top-0 w-full bg-background/80 backdrop-blur-sm border-b z-50">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Edney Gonçalves</h1>
-          <Button 
-            variant="ghost" 
-            size="icon" 
-            onClick={toggleDarkMode}
-            aria-label="Toggle dark mode"
-          >
-            {darkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
-          </Button>
-        </div>
-      </header>
+  <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+    
+    {/* Nome que volta ao topo */}
+    <a href="#" className="text-2xl font-bold text-muted-foreground px-4 py-2 rounded-md transition-colors hover:bg-muted hover:text-foreground">
+      Edney Gonçalves
+    </a>
+
+    {/* Menu centralizado */}
+    <nav className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex space-x-12 text-lg">
+      <a href="#sobre" className="font-medium text-muted-foreground px-4 py-2 rounded-md transition-colors hover:bg-muted hover:text-foreground">
+        Sobre
+      </a>
+      <a href="#projetos" className="font-medium text-muted-foreground px-4 py-2 rounded-md transition-colors hover:bg-muted hover:text-foreground">
+        Projetos
+      </a>
+      <a href="#contato" className="font-medium text-muted-foreground px-4 py-2 rounded-md transition-colors hover:bg-muted hover:text-foreground">
+        Contato
+      </a>
+    </nav>
+
+
+    {/* Botão de modo escuro */}
+    <Button 
+      variant="ghost" 
+      size="icon" 
+      onClick={toggleDarkMode}
+      aria-label="Toggle dark mode"
+    >
+      {darkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+    </Button>
+  </div>
+</header>
+
 
       {/* Seção foto do perfil */}
       <section className="pt-20 pb-20 px-4">
@@ -97,7 +118,7 @@ const Index = () => {
       </section>
 
       {/* Sobre mim */}
-      <section className="py-20 px-4 bg-muted/30">
+      <section id="sobre" className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-3xl font-bold text-center mb-12">Sobre Mim</h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -155,7 +176,7 @@ const Index = () => {
       </section>
 
       {/* Seção de projetos */}
-      <section className="py-20 px-4 bg-muted/30">
+      <section id="projetos" className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold text-center mb-12">Projetos em Destaque</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -185,8 +206,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section className="py-20 px-4">
+      {/* Seção de contatos */}
+      <section id="contato"className="py-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold mb-8">Vamos Trabalhar Juntos?</h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">

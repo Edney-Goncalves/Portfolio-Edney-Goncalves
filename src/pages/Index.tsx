@@ -25,8 +25,7 @@ const Index = () => {
 
   {/* Definição das Habilidades/conhecimentos */}
   const skills = [
-    "JavaScript", "TypeScript", "React", "Node.js",
-    "HTML5/CSS3", "Git/GitHub", "Solidity"
+    "JavaScript", "TypeScript", "React", "Tailwind CSS", "Node.js", "HTML5/CSS3", "Git/GitHub", "Solidity"
   ];
 
   {/* Definição dos Projetos em Destaque */}
@@ -98,7 +97,7 @@ const Index = () => {
               Desenvolvedor <span className="text-primary">Front-End</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Transformo ideias em realidade. Especializado em Javascript, Node.js e Solidity.
+              Transformo ideias em realidade. Especializado em Javascript, React e Tailwind CSS.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=developer.edney@gmail.com" target="_blank" rel="noopener noreferrer">
@@ -120,7 +119,7 @@ const Index = () => {
       {/* Sobre mim */}
       <section id="sobre" className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl font-bold text-center mb-12">Sobre Mim</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Sobre mim</h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-muted-foreground mb-6">

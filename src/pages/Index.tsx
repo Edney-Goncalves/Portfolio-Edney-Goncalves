@@ -133,7 +133,7 @@ const Index = () => {
                 Atualmente estou em busca de oportunidades em estágio para iniciar oficialmente no mercado de trabalho como desenvolvedor. Se você gostar do meu perfil e quiser me contatar, meus endereços estão disponíveis aqui.
               </p>
               <div className="flex gap-4">
-                <a href="https:/github.com/Edney-Goncalves" target='_blank' rel="noopener noreferrer">
+                <a href="https://github.com/Edney-Goncalves" target='_blank' rel="noopener noreferrer">
                   <Button variant="outline" size="icon">
                     <Github className="h-5 w-5" />
                   </Button>

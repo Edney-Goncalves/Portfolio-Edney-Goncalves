@@ -178,32 +178,46 @@ const Index = () => {
       <section id="projetos" className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold text-center mb-12">Projetos em Destaque</h2>
+          
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      
             {projects.map((project, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <CardTitle className="flex items-center justify-between">
-                    {project.title}
-                    <Button variant="ghost" size="icon">
-                      <ExternalLink className="h-4 w-4" />
-                    </Button>
-                  </CardTitle>
-                  <CardDescription>{project.description}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex flex-wrap gap-2">
-                    {project.tech.map((tech, techIndex) => (
-                      <Badge key={techIndex} variant="outline">
-                        {tech}
-                      </Badge>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
+              <a
+                key={index}
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
+                  <CardHeader>
+                    <CardTitle className="flex items-center justify-between">
+                      {project.title}
+                    </CardTitle>
+                    <CardDescription>
+                      {project.description}
+                    </CardDescription>
+                  </CardHeader>
+      
+                  <CardContent>
+                    <div className="flex flex-wrap gap-2">
+                      {project.tech.map((tech, techIndex) => (
+                        <Badge key={techIndex} variant="outline">
+                          {tech}
+                        </Badge>
+                      ))}
+                    </div>
+                  </CardContent>
+      
+                </Card>
+              </a>
             ))}
+      
           </div>
+      
         </div>
       </section>
+
 
       {/* Seção de contatos */}
       <section id="contato"className="py-20 px-4">

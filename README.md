@@ -19,6 +19,7 @@ Acredito que a missão de todo o desenvolvedor deve ser a de facilitar a vida do
 
 ## 🛠️ Tecnologias Utilizadas
 
+- Site construído no lovable
 - HTML5
 - CSS3 (Flexbox & Grid)
 - TypeScript

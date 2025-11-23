@@ -224,8 +224,7 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold mb-8">Vamos Trabalhar Juntos?</h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Estou sempre aberto a discutir novas oportunidades e projetos interessantes. 
-            Entre em contato e vamos desenvolver nosso dApp!!
+            Gostou dos projetos? Então ajude este estudante, dando uma oportunidade de iniciar na área😉 Entre em contato comigo.
           </p>
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=developer.edney@gmail.com" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="text-lg px-8">

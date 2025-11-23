@@ -97,7 +97,7 @@ const Index = () => {
               Desenvolvedor <span className="text-primary">Front-End</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Busco transformar ideias em realidade. Estou me especializando em Python e AWS.
+              Estudante de Engenharia de Software | Python | Back-end | SQL | PostgreSQL | Git | GitHub 
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=developer.edney@gmail.com" target="_blank" rel="noopener noreferrer">

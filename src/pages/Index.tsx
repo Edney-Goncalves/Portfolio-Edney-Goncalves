@@ -25,22 +25,22 @@ const Index = () => {
 
   {/* Definição das Habilidades/conhecimentos */}
   const skills = [
-    "JavaScript", "TypeScript", "React", "Tailwind CSS", "Node.js", "HTML5/CSS3", "Git/GitHub", "Solidity"
+    "Pythont", "Postgre", "HTML5/CSS3", "Git/GitHub"
   ];
 
   {/* Definição dos Projetos em Destaque */}
   const projects = [
     {
-      title: "Cadastro de Clientes (Em breve)",
-      description: "Projeto de cadastro de clientes com autenticação, onde apliquei meus conhecimentos em CRUD",
-      tech: ["HTML", "CSS", "JavaScript", "MongoDB"],
-      link: "Em breve"
+      title: "Pousada",
+      description: "Aplicação desenvolvida para checkin/checkout de hóspedes num hotel, onde apliquei meus conhecimentos em CRUD",
+      tech: ["Python"],
+      link: "https://github.com/Edney-Goncalves/projeto_pousada"
     },
     {
-      title: "UrnaLivre (Em breve)",
-      description: "Protótipo de sistema eleitoral online seguro e transparente, utilizando blockchain",
-      tech: ["HTML", "CSS", "JavaScript", "MongoDB", "Solidity"],
-      link: "Em breve"
+      title: "Login",
+      description: "Sistema de login, para cadastro de usuário e senha. O intuito foi praticar sistemáticas de segurança e armazenamento de dados sensíveis.",
+      tech: ["HTML", "CSS", "Python", "Json"],
+      link: "https://github.com/Edney-Goncalves/login"
     },
   ];
 
@@ -97,7 +97,7 @@ const Index = () => {
               Desenvolvedor <span className="text-primary">Front-End</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Transformo ideias em realidade. Especializado em Javascript, React e Tailwind CSS.
+              Busco transformar ideias em realidade. Estou me especializando em Python e AWS.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=developer.edney@gmail.com" target="_blank" rel="noopener noreferrer">

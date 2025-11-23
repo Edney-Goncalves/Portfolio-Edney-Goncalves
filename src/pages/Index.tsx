@@ -94,7 +94,7 @@ const Index = () => {
               </AvatarFallback>
             </Avatar>
             <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">
-              Bem vindo ao meu <span className="text-primary">Portfólio</span>
+              Bem vindo ao meu <span className="text-primary">Portfólio!</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               Estudante de Engenharia de Software | Python | Back-end | SQL | PostgreSQL | Git | GitHub 

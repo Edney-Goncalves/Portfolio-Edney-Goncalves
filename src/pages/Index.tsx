@@ -1,4 +1,3 @@
-
 {/* Importação das bibliotecas */}
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
@@ -107,8 +106,6 @@ const Index = () => {
                   <Whatsapp className="mr-2 h-5 w-5" />
                     Fale comigo
                   </Button>
-              </a>
-
               </a>
 
               <a href="/EdneyGoncalves_CV.pdf" download>

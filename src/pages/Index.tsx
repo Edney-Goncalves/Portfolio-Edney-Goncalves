@@ -6,6 +6,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Github, Linkedin, Mail, Moon, Sun, Download, ExternalLink } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Whatsapp } from "lucide-react";
+
 
 {/* Lógica do botão dark/white */}
 const Index = () => {
@@ -100,9 +102,13 @@ const Index = () => {
               Estudante de Engenharia de Software | Python | Back-end | SQL | PostgreSQL | Git | GitHub 
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=developer.edney@gmail.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5512997720295" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="text-lg px-8">
-                  <Mail className="mr-2 h-5 w-5" />Entre em Contato</Button>
+                  <Whatsapp className="mr-2 h-5 w-5" />
+                    Fale comigo
+                  </Button>
+              </a>
+
               </a>
 
               <a href="/EdneyGoncalves_CV.pdf" download>

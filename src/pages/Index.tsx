@@ -102,7 +102,7 @@ const Index = () => {
               Estudante de Engenharia de Software | Python | Back-end | SQL | PostgreSQL | Git | GitHub 
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://wa.me/5512997720295" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5511959209860" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="text-lg px-8">
                   <Whatsapp className="mr-2 h-5 w-5" />
                     Fale comigo

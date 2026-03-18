@@ -1,15 +1,11 @@
-// Importação das bibliotecas
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Github, Linkedin, Mail, Moon, Sun, Download } from 'lucide-react';
+import { Github, Linkedin, Mail, Moon, Sun, Download, MessageCircle } from "lucide-react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Whatsapp } from "lucide-react";
 
 const Index = () => {
-
-  // Estado do modo escuro
   const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
@@ -24,12 +20,10 @@ const Index = () => {
     setDarkMode(!darkMode);
   };
 
-  // Habilidades
   const skills = [
     "Python", "PostgreSQL", "HTML5/CSS3", "Git/GitHub"
   ];
 
-  // Projetos
   const projects = [
     {
       title: "Pousada",
@@ -47,17 +41,12 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground transition-colors duration-300">
-
-      {/* Header */}
       <header className="fixed top-0 w-full bg-background/80 backdrop-blur-sm border-b z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-
-          {/* Nome no topo */}
           <a href="#" className="text-2xl font-bold text-muted-foreground px-4 py-2 rounded-md transition-colors hover:bg-muted hover:text-foreground">
             Edney Gonçalves
           </a>
 
-          {/* Menu */}
           <nav className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex space-x-12 text-lg">
             <a href="#sobre" className="font-medium text-muted-foreground px-4 py-2 rounded-md transition-colors hover:bg-muted hover:text-foreground">
               Sobre
@@ -70,19 +59,15 @@ const Index = () => {
             </a>
           </nav>
 
-          {/* Dark Mode Button */}
           <Button variant="ghost" size="icon" onClick={toggleDarkMode} aria-label="Toggle dark mode">
             {darkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
           </Button>
         </div>
       </header>
 
-      {/* Hero / Foto de Perfil */}
       <section className="pt-20 pb-20 px-4">
         <div className="container mx-auto text-center max-w-4xl">
           <div className="mb-8">
-
-            {/* Foto */}
             <Avatar className="w-32 h-32 mx-auto mb-6">
               <AvatarImage src="/edney_foto.jpg" alt="Edney Gonçalves" />
               <AvatarFallback className="bg-gradient-to-r from-blue-500 to-purple-600 text-white text-4xl font-bold">
@@ -99,10 +84,9 @@ const Index = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-
               <a href="https://wa.me/5511959209860" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="text-lg px-8">
-                  <Whatsapp className="mr-2 h-5 w-5" />
+                  <MessageCircle className="mr-2 h-5 w-5" />
                   Fale comigo
                 </Button>
               </a>
@@ -113,19 +97,16 @@ const Index = () => {
                   Download CV
                 </Button>
               </a>
-
             </div>
           </div>
         </div>
       </section>
 
-      {/* Sobre mim */}
       <section id="sobre" className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-3xl font-bold text-center mb-12">Sobre mim</h2>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
-
             <div>
               <p className="text-lg text-muted-foreground mb-6">
                 Sou estudante de Engenharia de Software, mas trouxe comigo mais de 8 anos de experiência na área industrial, onde desenvolvi habilidades fortes de comunicação, liderança e resolução de problemas.
@@ -158,12 +139,10 @@ const Index = () => {
                 </CardContent>
               </Card>
             </div>
-
           </div>
         </div>
       </section>
 
-      {/* Habilidades */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-3xl font-bold text-center mb-12">Habilidades</h2>
@@ -182,13 +161,11 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Projetos */}
       <section id="projetos" className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold text-center mb-12">Projetos em Destaque</h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-
             {projects.map((project, index) => (
               <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="block">
                 <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full">
@@ -209,19 +186,16 @@ const Index = () => {
                 </Card>
               </a>
             ))}
-
           </div>
         </div>
       </section>
 
-      {/* Contato */}
       <section id="contato" className="py-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
-
           <h2 className="text-3xl font-bold mb-8">Vamos Trabalhar Juntos?</h2>
 
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Gostou dos projetos? Então ajude este estudante dando uma oportunidade de iniciar na área 😉  
+            Gostou dos projetos? Então ajude este estudante dando uma oportunidade de iniciar na área 😉
             Entre em contato comigo!
           </p>
 
@@ -231,16 +205,12 @@ const Index = () => {
               developer.edney@gmail.com
             </Button>
           </a>
-
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="py-8 px-4 border-t bg-muted/30">
         <div className="container mx-auto text-center">
-
           <div className="flex justify-center gap-4 mb-4">
-
             <a href="https://github.com/Edney-Goncalves" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon">
                 <Github className="h-5 w-5" />
@@ -258,14 +228,11 @@ const Index = () => {
                 <Mail className="h-5 w-5" />
               </Button>
             </a>
-
           </div>
 
           <p className="text-muted-foreground">© 2025 Edney Gonçalves. Todos os direitos reservados.</p>
-
         </div>
       </footer>
-
     </div>
   );
 };

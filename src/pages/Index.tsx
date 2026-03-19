@@ -195,7 +195,7 @@ const Index = () => {
           <h2 className="text-3xl font-bold mb-8">Vamos Trabalhar Juntos?</h2>
 
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Gostou dos projetos? Então ajude este estudante dando uma oportunidade de iniciar na área 😉
+            Gostou dos projetos? Então ajude este estudante dando uma oportunidade de iniciar na área
             Entre em contato comigo!
           </p>
 
